@@ -27,14 +27,6 @@ h2{
    
  }
 
- @media only screen and (min-width:480) {
-   
-   
- }
-
-   
-
- 
 
  html{
     font-size: 1rem;
@@ -63,7 +55,7 @@ h2{
      
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:400px){
    .lista-iconos{
    display: none; }
 }
@@ -80,8 +72,16 @@ h2{
    text-align: center;
    gap: 20px;
    
- }  
-   
+ } 
+ @media only screen and (min-width:1024px) {
+   .color__gris{
+      display: grid;
+      grid-template-columns: repeat(2,50%);
+      grid-template-rows: repeat(4,1vh);
+
+   }
+ }
+  
 
 .galeria{   
    display:flex;
@@ -105,7 +105,7 @@ h2{
    }
    
 
-    @media(min-width480px){  
+    @media(min-width400px){  
     .galeria img{    
      display: block;
      margin: 10px;
@@ -129,7 +129,7 @@ padding-top: 60px;
 
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:400px){
    .info__usuario{
       display: grid;
       grid-template-columns: 1fr;
@@ -138,7 +138,7 @@ padding-top: 60px;
 
    }
 }
-@media only screen and (max-width:480px){    
+@media only screen and (max-width:400px){    
 .link__usuario{
    display: grid;
    grid-template-columns: 1fr;
