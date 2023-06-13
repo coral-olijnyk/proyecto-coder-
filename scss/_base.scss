@@ -1,0 +1,26 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul, ul{ 
+    list-style: none;
+     }
+
+html{
+    font-size: 1rem;
+ }
+
+ .unidad-rem{
+    font-size: 1rem;
+ }
+
+ $color-principal:rgb(223, 209, 190);
+
+ 
+@media only screen and (max-width:400px){
+    .lista-iconos{
+    display: none; }
+ }
