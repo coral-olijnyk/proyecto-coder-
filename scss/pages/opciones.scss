@@ -1,79 +1,99 @@
-h2{
-    font-family:"robot",-serif;
-    font-size: 20px;
+h2 {
+   font-family: "robot", -serif;
+   font-size: 20px;
 }
 
- h1{
-    font-family: "sigmar",-serif;
-    text-align: center;
-    grid-template-rows: 50px;
-    color: rgb(3, 3, 3);
-    
- }
- .lista-nav{   
-    display: flex;
-    align-items:center;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns:1fr 1fr 1fr 3fr 1fr;
-    grid-template-rows:50px;
-    background-color:$color-principal;
-    position: relative;
-    position: fixed;
-    top: 0%;
-    right: 0%;
-    left: 0%;
-}
- 
-.color__gris{ 
-    background-color:$color-principal;
-    padding-top: 1px;
-    padding-left: 15px;
-    border-radius: 15px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 15px;
-    text-align: center;
-    gap: 20px;
-    
-  
-   @media only screen and (min-width:1024px) { 
-    &__gris{
-       display: grid;
-       grid-template-columns: repeat(2,50%);
-       grid-template-rows: repeat(4,1vh);
-     }
-    }
- } 
+h1 {
+   font-family: "sigmar", -serif;
+   text-align: center;
+   grid-template-rows: 50px;
+   color: rgb(3, 3, 3);
 
- .galeria{   
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
-     &__img{ 
-       display:block;
-       margin: 10 px auto
-       
-     }
-    &--pollera{ 
-       width: 100%;
-    }
-    &--saquito{   
-       width: 100%;
+}
+
+.lista-secciones-nav {
+   display: flex;
+   align-items: center;
+   display: grid;
+   justify-content: space-between;
+   grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+   grid-template-rows: 50px;
+   background-color: $color-principal;
+   position: relative;
+   position: fixed;
+   top: 0%;
+   right: 0%;
+   left: 0%;
+}
+
+@media only screen and (max-width:400px) {
+   .lista-iconos-nav {
+      display: none;
    }
-    &--sweter{  
-       width: 100%;
-          }
-          
-      }
+}
 
-      @media(min-width400px){  
-        .galeria img{    
-         display: block;
-         margin: 10px;
-         object-fit:contain;
-        
-    }  
-    }
+.lista-redes-footer {
+   background-color: $color-principal;
+   padding-top: 1px;
+   padding-left: 15px;
+   border-radius: 15px;
+   flex-direction: row;
+   flex-wrap: wrap;
+   font-size: 15px;
+   text-align: center;
+   gap: 20px;
+
+
+   @media only screen and (min-width:1024px) {
+      &__gris {
+         display: grid;
+         grid-template-columns: repeat(2, 50%);
+         grid-template-rows: repeat(4, 1vh);
+      }
+   }
+}
+
+.galeria {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+
+   &__img {
+      display: block;
+      margin: 10 px auto
+   }
+
+   &--pollera {
+      width: 100%;
+   }
+
+   &--saquito {
+      width: 100%;
+   }
+
+   &--sweter {
+      width: 100%;
+   }
+   &--campera--marron {
+      width: 100%;
+   }
+
+   &--campera--negra {
+      width: 100%;
+   }
+
+   &--remera {
+      width: 100%;
+   }
+
+}
+
+@media(min-width400px) {
+   .galeria img {
+      display: block;
+      margin: 10px;
+      object-fit: contain;
+
+   }
+}
