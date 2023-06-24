@@ -275,9 +275,9 @@ h1 {
 
 .galeria {
   display: flex;
-  align-items: center;
-  display: block;
-  flex-wrap: wrap;
+   align-items: center;
+   gap: 32px;
+   flex-wrap: wrap;
 }
 @media (min-width: 400px) {
   .galeria .galeria {
