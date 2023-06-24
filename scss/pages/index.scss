@@ -61,7 +61,7 @@ h1 {
 .galeria {
    display: flex;
    align-items: center;
-   gap: 30px;
+   gap: 32px;
    flex-wrap: wrap;
 
    @media(min-width:400px) {
@@ -77,8 +77,8 @@ h1 {
 
 
 &__img {
-      display: block;
-      margin: 11 px auto
+      
+      margin: 10 px auto
    }
 
    &--pollera {
@@ -108,7 +108,7 @@ h1 {
 
 @media(min-width400px) {
    .galeria img {
-      display: block;
+      
       margin: 10px;
       object-fit: contain;
 
