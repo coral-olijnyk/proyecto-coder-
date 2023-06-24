@@ -61,7 +61,7 @@ h1 {
 .galeria {
    display: flex;
    align-items: center;
-   display: block;
+   gap: 30px;
    flex-wrap: wrap;
 
    @media(min-width:400px) {
