@@ -24,7 +24,7 @@ html {
   }
 }
 .lista--muuk:hover {
-  text-shadow: 7px 5px 3px blue;
+  text-shadow: 7px 6px 3px rgba(0, 0, 255, 0.903);
   transform: translate(-15px);
   transform: translate(opx);
   transform: scale(2, 0);
@@ -160,7 +160,6 @@ h1 {
 
 @media (min-width400px) {
   .galeria img {
-    display: block;
     margin: 10px;
     object-fit: contain;
   }
@@ -275,9 +274,9 @@ h1 {
 
 .galeria {
   display: flex;
-   align-items: center;
-   gap: 32px;
-   flex-wrap: wrap;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
 }
 @media (min-width: 400px) {
   .galeria .galeria {
@@ -288,8 +287,7 @@ h1 {
   }
 }
 .galeria__img {
-  display: block;
-  margin: 11 px auto;
+  margin: 10 px auto;
 }
 .galeria--pollera {
   width: 100%;
@@ -312,7 +310,6 @@ h1 {
 
 @media (min-width400px) {
   .galeria img {
-    display: block;
     margin: 10px;
     object-fit: contain;
   }
@@ -388,8 +385,8 @@ html {
 }
 .lista--muuk:hover {
   text-shadow: 7px 5px 3px blue;
-  transform: translate(-15px);
-  transform: translate(opx);
+  transform: translate(-10px);
+  transform: translate(0px);
   transform: scale(2, 0);
 }
 
@@ -446,7 +443,6 @@ h1 {
 
 @media (min-width400px) {
   .galeria img {
-    display: block;
     margin: 10px;
     object-fit: contain;
   }
