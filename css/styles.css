@@ -24,7 +24,7 @@ html {
   }
 }
 .lista--muuk:hover {
-  text-shadow: 7px 5px 3px rgba(0, 0, 255, 0.903);
+  text-shadow: 7px 6px 3px rgba(0, 0, 255, 0.903);
   transform: translate(-15px);
   transform: translate(opx);
   transform: scale(2, 0);
