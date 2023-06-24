@@ -158,34 +158,6 @@ h1 {
   }
 }
 
-.galeria {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.galeria__img {
-  display: block;
-  margin: 10 px auto;
-}
-.galeria--pollera {
-  width: 100%;
-}
-.galeria--saquito {
-  width: 100%;
-}
-.galeria--sweter {
-  width: 100%;
-}
-.galeria--campera--marron {
-  width: 100%;
-}
-.galeria--campera--negra {
-  width: 100%;
-}
-.galeria--remera {
-  width: 100%;
-}
-
 @media (min-width400px) {
   .galeria img {
     display: block;
@@ -198,19 +170,6 @@ h1 {
   transform: translate(-15px);
   transform: translate(opx);
   transform: scale(2, 0);
-}
-
-.galeria {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.galeria__img {
-  display: block;
-  margin: 10 px auto;
-}
-.galeria--pollera {
-  width: 100%;
 }
 
 .lista-secciones-nav {
@@ -233,19 +192,6 @@ h1 {
     display: none;
   }
 }
-.galeria {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.galeria__img {
-  display: block;
-  margin: 10 px auto;
-}
-.galeria--pollera {
-  width: 100%;
-}
-
 .lista-redes-footer {
   background-color: rgb(223, 209, 190);
   padding-top: 1px;
@@ -255,7 +201,7 @@ h1 {
   flex-wrap: wrap;
   font-size: 15px;
   text-align: center;
-  gap: 20px;
+  gap: 15px;
 }
 @media only screen and (min-width: 1024px) {
   .lista-redes-footer__gris {
@@ -329,7 +275,6 @@ h1 {
 
 .galeria {
   display: flex;
-  /* flex-direction: column;*/
   align-items: center;
   display: block;
   flex-wrap: wrap;
@@ -497,34 +442,6 @@ h1 {
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(4, 1vh);
   }
-}
-
-.galeria {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.galeria__img {
-  display: block;
-  margin: 10 px auto;
-}
-.galeria--pollera {
-  width: 100%;
-}
-.galeria--saquito {
-  width: 100%;
-}
-.galeria--sweter {
-  width: 100%;
-}
-.galeria--campera--marron {
-  width: 100%;
-}
-.galeria--campera--negra {
-  width: 100%;
-}
-.galeria--remera {
-  width: 100%;
 }
 
 @media (min-width400px) {
